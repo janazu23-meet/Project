@@ -41,8 +41,6 @@
     <div class="container-fluid container-xxl d-flex align-items-center">
 
       <div id="logo" class="me-auto">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
         <a href="index.html" class="scrollto"><img src="static/img/logo.png" alt="" title=""></a>
       </div>
 
@@ -70,7 +68,6 @@
             <li><a href="#">Drop Down 4</a></li>
           </ul>
         </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -82,7 +79,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="mb-4 pb-0">The<br><span>Arctic</span>Monkeys</h1>
+      <h1 class="mb-4 pb-0">{{username}} Learn More About <br>The<br><span>Arctic</span>Monkeys</h1>
       <p class="mb-4 pb-0"> An English Rock Brand </p>
       <a href="https://youtu.be/qU9mHegkTc4?t=87" class="glightbox play-btn mb-4"></a>
       <a href="#about" class="about-btn scrollto">More About Them</a>
@@ -120,13 +117,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="static/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Alex Turner</a></h3>
+                <h3><a href="http://127.0.0.1:5000/members_details">Alex Turner</a></h3>
                 <p>lead vocals, guitar, keyboards</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -134,13 +126,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="static/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jamie Cook</a></h3>
+                <h3><a href="http://127.0.0.1:5000/members_details">Jamie Cook</a></h3>
                 <p>guitar, keyboards</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -148,13 +135,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="static/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Nick O'Malley</a></h3>
+                <h3><a href="http://127.0.0.1:5000/members_details">Nick O'Malley</a></h3>
                 <p>bass guitar, backing vocals</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -162,13 +144,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="static/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Matt Helders</a></h3>
+                <h3><a href="http://127.0.0.1:5000/members_details">Matt Helders</a></h3>
                 <p>drums, backing vocals</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -176,13 +153,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="static/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Andy Nicholson</a></h3>
+                <h3><a href="http://127.0.0.1:5000/members_details">Andy Nicholson</a></h3>
                 <p>bass guitar, backing vocals</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -190,7 +162,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="static/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">The Arctic Monkeys</a></h3>
+                <h3><a href="http://127.0.0.1:5000/members_details">The Arctic Monkeys</a></h3>
                 <p>made up of 4</p>
                 <div class="social">
                   <a href="https://twitter.com/arcticmonkeys"><i class="bi bi-twitter"></i></a>
@@ -209,24 +181,23 @@
     <section id="schedule" class="section-with-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Event Schedule</h2>
-          <p>Here is our event schedule</p>
+          <h2>Upcoming Tours</h2>
+          <p>Here are the dates of upcoming tours</p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">America</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Europe</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Asia</a>
           </li>
         </ul>
 
-        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        <h3 class="sub-heading"></h3>
 
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
@@ -467,7 +438,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Gallery</h2>
-          <p>Check our gallery from the recent events</p>
+          <p>Photos of previous concerts</p>
         </div>
       </div>
 
@@ -487,49 +458,26 @@
 
     </section><!-- End Gallery Section -->
 
-    <!-- ======= Subscribe Section ======= -->
-    <section id="subscribe">
-      <div class="container" data-aos="zoom-in">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-        </div>
-
-        <form method="POST" action="#">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10 d-flex">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-              <button type="submit" class="ms-2">Subscribe</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
-    </section><!-- End Subscribe Section -->
-
     <!-- ======= Buy Ticket Section ======= -->
     <section id="buy-tickets" class="section-with-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Buy Tickets</h2>
-          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
+          <p>Select Your Ticket Type</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
+                <h5 class="card-title text-muted text-uppercase text-center">General Admission</h5>
                 <h6 class="card-price text-center">$150</h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-reserved Seats</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>No Floor Access</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Only Available For One Day</li>
                 </ul>
                 <hr>
                 <div class="text-center">
@@ -541,16 +489,13 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
+                <h5 class="card-title text-muted text-uppercase text-center">VIP</h5>
                 <h6 class="card-price text-center">$250</h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Reserve Seats</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Floor Seats Available</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Special Perks</li>
                 </ul>
                 <hr>
                 <div class="text-center">
@@ -563,16 +508,13 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
+                <h5 class="card-title text-muted text-uppercase text-center">SoundCheck</h5>
                 <h6 class="card-price text-center">$350</h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>VIP Perks+</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Watch the Band Practice</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Interact With the Band</li>
                 </ul>
                 <hr>
                 <div class="text-center">
@@ -605,9 +547,9 @@
                 <div class="form-group mt-3">
                   <select id="ticket-type" name="ticket-type" class="form-select">
                     <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
+                    <option value="standard-access">General Admission</option>
+                    <option value="pro-access">VIP</option>
+                    <option value="premium-access">Soundcheck</option>
                   </select>
                 </div>
                 <div class="text-center mt-3">
@@ -621,72 +563,6 @@
 
     </section><!-- End Buy Ticket Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="section-bg">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Nihil officia ut sint molestiae tenetur.</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group col-md-6 mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -696,8 +572,8 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+            <img src="static/img/logo.png" alt="TheEvenet">
+            <p>u go girl</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -711,16 +587,6 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
@@ -736,28 +602,11 @@
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
 
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-      -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
